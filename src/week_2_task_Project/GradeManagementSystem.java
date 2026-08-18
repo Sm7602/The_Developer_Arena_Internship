@@ -90,18 +90,23 @@ public class GradeManagementSystem {
 
     private static void displayMenu() {
 
-        System.out.println("\n==============================================");
-        System.out.println("              MAIN MENU");
-        System.out.println("==============================================");
-        System.out.println("1. Add Student");
-        System.out.println("2. View All Students");
-        System.out.println("3. Search Student");
-        System.out.println("4. View Student Report");
-        System.out.println("5. Class Performance Summary");
-        System.out.println("6. Find Highest Performer");
-        System.out.println("7. Find Lowest Performer");
-        System.out.println("8. Exit");
-        System.out.println("==============================================");
+        System.out.println();
+        System.out.println("====================================================");
+        System.out.println("                    MAIN MENU");
+        System.out.println("====================================================");
+
+        System.out.println("1.  Add Student");
+        System.out.println("2.  View All Students");
+        System.out.println("3.  Search Student");
+        System.out.println("4.  View Student Report");
+        System.out.println("5.  Class Performance Summary");
+        System.out.println("6.  Find Highest Performer");
+        System.out.println("7.  Find Lowest Performer");
+        System.out.println("8.  Student Ranking");
+        System.out.println("9.  Subject Performance");
+        System.out.println("10. Exit");
+
+        System.out.println("====================================================");
     }
 
     // =========================================================
