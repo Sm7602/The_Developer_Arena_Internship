@@ -152,6 +152,9 @@ public class Library {
 	        for (Book book : books) {
 	            if (book.getTitle()
 	                    .toLowerCase()
+	                    .contains(keyword.toLowerCase()) 
+	                    ||book.getAuthor()
+	                    .toLowerCase()
 	                    .contains(keyword.toLowerCase())) {
 
 	                result.add(book);
